@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(113, 181, 241);
+}
+
+.header .header-content{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header .header-content .logo span{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.header .header-content .navbar ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header .header-content .navbar ul li a{
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header .header-content .navbar a:hover {
+    background-color: #4990dd;
+    border-radius: 15px;
+}
+
+.header .header-content button{
+    font-weight: bold;
+    background-color: #007bff;
+    background-image: linear-gradient(45deg, #4990dd, #0056b3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-position 0.2s ease, background-color 0.5s ease;
+    background-size: 200%;
+}
+
+.header .header-content button:hover{
+    background-position: right;
+}
+
+
+/*--------------------------*/
+
+
+.about-content-1{
+    margin: 40px;
+    display: flex;
+}
+
+.about-content-1 p{
+    margin: 30px;
+    text-align: justify;
+}
+
+.about-content-1 img{
+    height: 400px;
+    border-radius: 20px;
+}
+
+.about-content-2{
+    margin: 40px;
+    display: flex;
+}
+
+.about-content-2 p{
+    margin: 30px;
+    text-align: justify;
+}
+
+.about-content-2 img{
+    height: 400px;
+    border-radius: 20px;
+}
+
+/*--------footer-----------------*/
+
+.footer{
+    background-color: #4695ca;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    padding: 30px;
+    color: white;
+}
+
+.footer h1{
+    font-size: 30px;
+}
+
+.footer .footer-left{
+    position: relative;
+}
+
+.footer-center{
+    text-align: left;
+}
+
+.footer .footer-center ul{
+    list-style: none;
+}
+
+.footer .footer-center ul{
+    text-align: left;
+}
+
+.footer .footer-center ul li{
+    padding: 5px;
+}
+
+.footer .footer-center ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-center ul li a:hover{
+    background-color: #4990dd;
+    border-radius: 15px;
+}
